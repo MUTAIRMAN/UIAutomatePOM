@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="-1">
+	<listeners>
+		<listener
+			class-name="Test.com.muthuAltimetrik.ActionListener" />
+	</listeners>
+	<test name="Amazon">
+
+		<classes>
+			<class name="Test.com.muthuAltimetrik.TestCaseOne" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

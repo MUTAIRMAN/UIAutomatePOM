@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32801" started-at="2021-06-11T03:55:16Z" finished-at="2021-06-11T03:55:49Z">
+    <groups>
+    </groups>
+    <test name="Amazon" duration-ms="32801" started-at="2021-06-11T03:55:16Z" finished-at="2021-06-11T03:55:49Z">
+      <class name="Test.com.muthuAltimetrik.TestCaseOne">
+        <test-method status="PASS" signature="LaunchDriver()[pri:0, instance:Test.com.muthuAltimetrik.TestCaseOne@2286778]" name="LaunchDriver" is-config="true" duration-ms="14635" started-at="2021-06-11T03:55:16Z" finished-at="2021-06-11T03:55:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:0, instance:Test.com.muthuAltimetrik.TestCaseOne@2286778]" name="TestCaseOne" duration-ms="16005" started-at="2021-06-11T03:55:31Z" finished-at="2021-06-11T03:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="TestCaseTwo()[pri:1, instance:Test.com.muthuAltimetrik.TestCaseOne@2286778]" name="TestCaseTwo" duration-ms="996" started-at="2021-06-11T03:55:47Z" finished-at="2021-06-11T03:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseTwo -->
+        <test-method status="PASS" signature="QuitDriver()[pri:0, instance:Test.com.muthuAltimetrik.TestCaseOne@2286778]" name="QuitDriver" is-config="true" duration-ms="1121" started-at="2021-06-11T03:55:48Z" finished-at="2021-06-11T03:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- Test.com.muthuAltimetrik.TestCaseOne -->
+    </test> <!-- Amazon -->
+  </suite> <!-- Suite -->
+</testng-results>

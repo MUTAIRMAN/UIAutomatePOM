@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="-1" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Test.com.muthuAltimetrik.ActionListener"/>
+  </listeners>
+  <test thread-count="5" verbose="-1" name="Amazon(failed)">
+    <classes>
+      <class name="Test.com.muthuAltimetrik.TestCaseTwo">
+        <methods>
+          <include name="afterTest"/>
+          <include name="Books"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Test.com.muthuAltimetrik.TestCaseTwo -->
+      <class name="Test.com.muthuAltimetrik.TestCaseOne">
+        <methods>
+          <include name="TestCaseTwo"/>
+          <include name="QuitDriver"/>
+          <include name="TestCaseOne"/>
+          <include name="LaunchDriver"/>
+        </methods>
+      </class> <!-- Test.com.muthuAltimetrik.TestCaseOne -->
+    </classes>
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [Suite] -->
